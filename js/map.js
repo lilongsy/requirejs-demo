@@ -16,7 +16,7 @@ define(['jquery','backbone'], function($){
 			 var obj = this;
 			 var script = document.createElement("script");
 			 script.type = "text/javascript";
-			 script.src = "http://api.map.baidu.com/api?v=1.4&ak=ACe388fab11b70137379e717f23663f7&callback=MapCallback";
+			 script.src = "http://api.map.baidu.com/api?v=1.4&ak=您的密钥&callback=MapCallback";
 			 document.body.appendChild(script);
 		},
 		
